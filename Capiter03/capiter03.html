@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>JavaScript练习</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+    var s1 = "01";
+    var s2 = "z";
+    var s3 = "1.1";
+    var b = false;
+    var f = 1.1;
+    var o = {
+    	valueOf: function(){return -1;}
+    };
+    s1 = +s1;
+    s2 = +s2;
+    s3 = +s3;
+    b = +b;
+    f = +f;
+    o = +o;
+
+    alert(s1);
+    alert(s2);
+    alert(s3);
+    alert(b);
+    alert(f);
+    alert(o);
+</script>
+</body>
+</html>
